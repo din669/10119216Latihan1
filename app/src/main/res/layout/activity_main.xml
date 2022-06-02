@@ -19,6 +19,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/frame1"
             android:layout_gravity="center">
+
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -53,12 +54,12 @@
                     android:layout_width="400dp"
                     android:layout_height="18dp"
                     android:layout_marginTop="24dp"
+                    android:fontFamily="@font/lato"
                     android:fontFeatureSettings="tnum, lnum"
                     android:gravity="top"
                     android:lineSpacingExtra="4sp"
                     android:text="Digital Together Everyone Achieve More"
-                    android:fontFamily="@font/lato"
-                    android:textColor="@color/blckw"/>
+                    android:textColor="@color/blckw" />
 
                 <TextView
                     android:id="@+id/jabar_digit"
@@ -193,6 +194,7 @@
                     android:fontFamily="@font/roboto"
                     android:textColor="@color/blue" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/frame33"
                 android:layout_width="0dp"
@@ -203,16 +205,17 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/frame33">
+
                 <ImageView
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="283dp"
-                    android:layout_marginEnd="12dp"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/jam">
-                </ImageView>
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/jam"></ImageView>
+
                 <View
                     android:id="@+id/frame34"
                     android:layout_width="0dp"
@@ -233,15 +236,16 @@
                     android:layout_height="0dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
                     android:gravity="center_vertical"
                     android:lineSpacingExtra="5sp"
                     android:text="130.53 JAM"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"/>
+                    android:textStyle="bold" />
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/frame35"
@@ -294,10 +298,10 @@
                         android:layout_marginRight="4dp"
                         android:gravity="center_horizontal|center_vertical"
                         android:lineSpacingExtra="8sp"
-                        android:textSize="15sp"
-                        android:textStyle="bold"
+                        android:text="Checkin"
                         android:textColor="@color/white"
-                        android:text="Checkin"/>
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
                 </RelativeLayout>
             </RelativeLayout>
         </RelativeLayout>
@@ -325,11 +329,11 @@
                     android:layout_width="303dp"
                     android:layout_height="30dp"
                     android:layout_centerInParent="true"
+                    android:fontFamily="@font/roboto"
                     android:fontFeatureSettings="tnum, lnum"
                     android:gravity="center_vertical"
                     android:lineSpacingExtra="3sp"
                     android:text="Laporan Kamu"
-                    android:fontFamily="@font/roboto"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -683,10 +687,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto"
                     android:gravity="top"
                     android:lineSpacingExtra="3sp"
                     android:text="Maret"
-                    android:fontFamily="@font/roboto"
                     android:textColor="@color/green"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -1022,10 +1026,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="179dp"
                     android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto"
                     android:fontFeatureSettings="tnum, lnum"
                     android:gravity="top"
                     android:text="April"
-                    android:fontFamily="@font/roboto"
                     android:textColor="@color/green"
                     android:textSize="15dp"
                     android:textStyle="bold" />

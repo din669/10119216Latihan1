@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
-//Kelas  : IF-6
-//Nama   : Muhammad Syarifuddin Rahiman
-//NIM    : 10119216
+//tanggal : 27/4/2022
+//Kelas   : IF-6
+//Nama    : Muhammad Syarifuddin Rahiman
+//NIM     : 10119216
+//TEST
